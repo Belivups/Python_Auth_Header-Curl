@@ -41,7 +41,7 @@ with requests.Session() as s:
 
     data = {
         'csrfToken': 'ajax:1830535981802663023',
-        'session_key': 'tryweb@belivup.com',
+        'session_key': 'Email Address Here',
         'ac': '0',
         'sIdString': 'f5060201-4652-40b9-b51e-a33141af775d',
         'parentPageKey': 'd_checkpoint_lg_consumerLogin',
@@ -55,7 +55,7 @@ with requests.Session() as s:
         '_d': 'd',
         'showGoogleOneTapLogin': 'true',
         'controlId': 'd_checkpoint_lg_consumerLogin-login_submit_button',
-        'session_password': 'NH123123nh',
+        'session_password': 'Password Here',
     }
 
     s.post('https://www.linkedin.com/checkpoint/lg/login-submit', cookies=cookies, headers=headers, data=data)
